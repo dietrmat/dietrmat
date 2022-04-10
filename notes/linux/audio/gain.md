@@ -1,4 +1,4 @@
-# Audio gain
+# Set gain audio files under Linux
 Add audio gain tags for different audio formats under linux.
 
 ## r128gain
