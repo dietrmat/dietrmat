@@ -1,1 +1,1 @@
-### Hi there 👋, this is my github repo for random stuff.
+### Hi there 👋, this is my github repo with random notes.
