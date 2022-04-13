@@ -14,4 +14,6 @@ whipper cd rip
 
 * Requirements: `sudo pacman -S youtube-dl`
 
+This will convert yts native format (m4a / ogg) no matter what to mp3 using ffmpeg / avconv / ffprobe / avprobe (depending on your distribution).
+
 `youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 <Video-URL>`
