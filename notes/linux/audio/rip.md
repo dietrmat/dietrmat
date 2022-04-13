@@ -9,3 +9,9 @@ We only want native apps with AccurateRip support: [whipper](https://github.com/
 ```bash
 whipper cd rip
 ```
+
+# Downloading audio of a yt video as mp3
+
+* Requirements: `sudo pacman -S youtube-dl`
+
+`youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 <Video-URL>`
