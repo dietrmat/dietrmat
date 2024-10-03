@@ -3,7 +3,7 @@ Add audio gain tags for different audio formats under linux.
 
 ## r128gain
 
-Currently (r128gain)[https://github.com/desbma/r128gain] is my favourite because it's hit&run.
+Currently [r128gain](https://github.com/desbma/r128gain) is my favourite because it's hit&run.
 
 ### Install
 
