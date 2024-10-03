@@ -12,8 +12,16 @@ whipper cd rip
 
 # Downloading audio of a yt video as mp3
 
-* Requirements: `sudo pacman -S youtube-dl`
+* Requirements:
+  * `sudo pacman -S youtube-dl` or
+  * `sudo apt install python3-pip && pip3 install --user youtube-dl`
 
 This will convert yts native format (m4a / ogg) no matter what to mp3 using ffmpeg / avconv / ffprobe / avprobe (depending on your distribution).
 
+## Single vidoes
+
 `youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 <Video-URL>`
+
+## Playlists
+
+`youtube-dl --ignore-errors --format bestaudio --extract-audio --audio-format mp3 --audio-quality 0 --output "%(title)s.%(ext)s" --yes-playlist <playlist-url>`
