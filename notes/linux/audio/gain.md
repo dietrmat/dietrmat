@@ -8,7 +8,8 @@ Currently (r128gain)[https://github.com/desbma/r128gain] is my favourite because
 ### Install
 
 ```bash
-pip install r128gain
+pip3 install --user r128gain
+source ~/.profile
 ```
 
 ### Usage
